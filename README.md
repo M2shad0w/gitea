@@ -39,6 +39,10 @@ From the root of the source tree, run:
 
 More info: https://docs.gitea.io/en-us/install-from-source/
 
+## buildsupport sqlite
+
+    go build -tags 'bindata' 'sqlite'
+
 ## Using
 
     ./gitea web
