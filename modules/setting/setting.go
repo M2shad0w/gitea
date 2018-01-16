@@ -487,7 +487,7 @@ var (
 		DisableDiffHighlight:     false,
 		MaxGitDiffLines:          1000,
 		MaxGitDiffLineCharacters: 5000,
-		MaxGitDiffFiles:          100,
+		MaxGitDiffFiles:          200,
 		GCArgs:                   []string{},
 		Timeout: struct {
 			Migrate int
